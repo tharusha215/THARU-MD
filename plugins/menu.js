@@ -13,7 +13,7 @@ cmd({
     use: ".menu",
     filename: __filename
 },
-async (conn, mek, m, context) => {
+async (conn, mek, pushname, m, context) => {
     const { from, pushname, reply } = context;
 
     try {
@@ -26,11 +26,11 @@ async (conn, mek, m, context) => {
 ┊ ┊ ┊ ┊ ┊
 ┊ ┊ ✫ ˚㋛ ⋆｡ ❀
 ┊ ☠︎︎
-✧  ᴰL⃠〆几ΣⱮΣ ズᵀᴹ෴✍︎𝄞
+✧  ${pushname.toUpperCase()}෴✍︎𝄞
 ╰────────────────❂
 
 *╭───────────────────────◆*
-*│📑 N O M O  M D  M E N U*
+*│📑 T H A R U  M D  M E N U*
 *│───────────────────────◆*
 *│ 🕓 Uᴘᴛɪᴍᴇ:* ${rtime}
 *│ 🧬 Vᴇʀsɪᴏɴ:* 1.0.0
@@ -63,7 +63,7 @@ async (conn, mek, m, context) => {
             menuData += `*╰───────────────◆*\n\n`;
         }
 
-        menuData += `> *POWERED BY NOMO-MD*`;
+        menuData += `> *POWERED BY THARU-MD*`;
 
         // මැසේජ් එක යැවීම
         return await conn.sendMessage(from, {
