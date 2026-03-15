@@ -89,7 +89,7 @@ async function connectToWA() {
 
       const up = `THARUWA-MD connected ✅\n\nPREFIX: ${prefix}`;
       await THARUWA.sendMessage(ownerNumber[0] + "@s.whatsapp.net", {
-        image: { url: `https://github.com/THARUWA-MD/THARUWA-MD/blob/main/images/THARUWA-MD.png?raw=true` },
+        image: { url: `https://img.sanishtech.com/u/290d30b8f2d7b56c7ac9a025f2820b38.jpeg` },
         caption: up
       });
 
