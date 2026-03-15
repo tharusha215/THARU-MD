@@ -67,7 +67,7 @@ async (conn, mek, m, context) => {
 
         // මැසේජ් එක යැවීම
         return await conn.sendMessage(from, {
-            image: { url: config.LOGO || "https://github.com/NOMO-OFC/Nomo-Md-Version-1/blob/main/lib/Nomo%20Md%20V1.jpeg?raw=true" },
+            image: { url: config.LOGO || "https://img.sanishtech.com/u/290d30b8f2d7b56c7ac9a025f2820b38.jpeg" },
             caption: menuData,
             contextInfo: {
                 externalAdReply: {
